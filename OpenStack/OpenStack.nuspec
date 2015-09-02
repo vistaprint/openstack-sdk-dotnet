@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>OpenStack-SDK-DotNet</id>
-        <version>0.9.1.0</version>
+        <version>0.9.1.1</version>
         <title>OpenStack SDK/API for Microsoft .NET</title>
         <authors>OpenStack.org</authors>
         <owners>OpenStack.org</owners>
         <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
-        <projectUrl>https://wiki.openstack.org/wiki/OpenStack-SDK-DotNet</projectUrl>
+        <projectUrl>https://github.com/vistaprint/openstack-sdk-dotnet</projectUrl>
         <iconUrl>http://www.openstack.org/assets/openstack-logo/openstack-cloud-software-vertical-small.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>OpenStack .NET is an SDK/API for working with OpenStack using the Microsoft .NET Framework.</description>
@@ -16,11 +16,11 @@
         <tags>OpenStack</tags>
         <dependencies>
             <group>
-                <dependency id="Newtonsoft.Json" version="6.0.2" />
+                <dependency id="Newtonsoft.Json" version="4.5.0" />
             </group>
             <group targetFramework="portable-net45+netcore45+wp8+MonoAndroid1+MonoTouch1">
                 <dependency id="Microsoft.Net.Http" version="2.2.22" />
-                <dependency id="Newtonsoft.Json" version="6.0.2" />
+                <dependency id="Newtonsoft.Json" version="4.5.0" />
             </group>
         </dependencies>
     </metadata>
